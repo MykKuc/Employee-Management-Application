@@ -12,7 +12,7 @@ import java.util.List;
 public class EmployeeRestController {
 
     private EmployeeService employeeService;
-    //quick and dirty: inject employee dao (use constructor injection) LATER WE WILL CREATE SERVICE LAYER.
+
     @Autowired
     public EmployeeRestController(EmployeeService theEmployeeService)
     {
